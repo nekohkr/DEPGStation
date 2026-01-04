@@ -249,6 +249,9 @@ class V1MigrationTool {
         if (oldRule.SKY !== null) {
             searchOption.SKY = oldRule.SKY;
         }
+        if (oldRule.BS4K !== null) {
+            searchOption.BS4K = oldRule.BS4K;
+        }
         if (oldRule.station !== null) {
             searchOption.channelIds = [oldRule.station];
         }

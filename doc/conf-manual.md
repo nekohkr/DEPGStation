@@ -759,7 +759,7 @@ recordingPrepRecFailedCommand: '/usr/bin/logger prepfailed'
 | ---------------------- | -------------- | ----------------------------- |
 | RECORDEDID             | number         | recorded id                   |
 | PROGRAMID              | number         | program id                    |
-| CHANNELTYPE            | string         | 'GR' \| 'BS' \| 'CS' \| 'SKY' |
+| CHANNELTYPE            | string         | 'GR' \| 'BS' \| 'CS' \| 'SKY' \| 'BS4K' |
 | CHANNELID              | number         | channel id                    |
 | CHANNELNAME            | string \| null | 放送局名                      |
 | HALF_WIDTH_CHANNELNAME | string \| null | 放送局名(半角)                |
